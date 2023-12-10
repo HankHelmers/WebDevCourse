@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Float</title>
+
+  <link rel="stylesheet" href="header-style.css">
+
   <style>
     div {
       background-color: coral;
@@ -29,8 +32,32 @@
 </head>
 
 <body>
+  <script>
+    // Get the template element
+    let template = document.getElementById("header");
+    let title = document.getElementById("title")
+
+    // Clone the template content
+    let clone = template.content.cloneNode(true);
+    
+    // Insert the clone into the document body
+    document.body.appendChild(clone);
+  </script>
 
   <body>
+    <!-- HEADER -->
+    <h1 id="title"> Flexbox: Layout Ease & Importance </h1>
+
+    <div class="header-container">
+        <h3>Page Layout Methods</h3>
+
+        <li><a href="./index.html">Flexbox</li>
+        <li><a href="./html-table.html">HTML Table</a></li>
+        <li><a href="./inline-block.html">Inline-Block</li>
+        <li><a href="./absolute-position.html">Absolute Positioning</li>
+        <li><a href="./float.html" class="selected">Float</a></li>
+    </div>
+
     <h1>Float</h1>
     <div class="one">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eveniet minus dolor qui laudantium
