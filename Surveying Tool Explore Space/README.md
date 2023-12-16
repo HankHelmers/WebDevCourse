@@ -2,7 +2,7 @@
 Space to explore the different tasks and resources required in the development of 'Data Surveying Tool'
 
 ## Current goals
-1. Retrieve input from user when clicking the graph
+1. Retrieve input from user when clicking the graph - 12/16/23
 2. Display that input to the user (Adding point to dataset & updating canvas?)
 3. Upload & Parse CSV into the canvas
 
